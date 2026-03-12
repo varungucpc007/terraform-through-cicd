@@ -13,7 +13,7 @@ variable "vpc_id" {
 variable "subnet_id" {
   type        = string
   description = "Existing subnet ID"
-  default = ""subnet-01de3907f1eed6b6c
+  default = "subnet-01de3907f1eed6b6c"
 }
 
 variable "key_pair_name" {
