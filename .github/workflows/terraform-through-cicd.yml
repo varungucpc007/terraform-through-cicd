@@ -2,9 +2,9 @@ name: Terraform CI/CD
 
 on:
   pull_request:
-    branches: ["main"]
+    branches: ["main1"]
   push:
-    branches: ["main"]
+    branches: ["main1"]
   workflow_dispatch:
 
 permissions:
